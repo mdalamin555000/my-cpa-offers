@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>USA & Canada CPA Offers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+  padding:20px;
+}
+
+/* MAIN BOX */
+.offer-box{
+  max-width:900px;
+  margin:0 auto;
+  background:#fff;
+  border-radius:16px;
+  padding:28px;
+  text-align:center;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* TEXT (unchanged) */
+.offer-box h1{
+  color:#2f6f8f;
+  margin-bottom:8px;
+}
+
+.offer-box p{
+  color:#666;
+  font-size:15px;
+  margin-bottom:14px;
+}
+
+/* IMAGE */
+.offer-image{
+  width:100%;
+  max-width:800px;
+  height:auto;
+  display:block;
+  margin:25px auto 40px; /* text & country এর মাঝে gap */
+}
+
+/* COUNTRY SECTION */
+.country{
+  display:flex;
+  justify-content:center;
+  gap:60px;
+  flex-wrap:wrap;
+  margin-bottom:40px;
+}
+
+.country > div{
+  max-width:260px;
+}
+
+.country h3{
+  font-size:25px;
+  margin-bottom:24px; /* flag ও button এর gap */
+}
+
+/* BUTTON */
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  width:100%;
+  max-width:170px;
+  padding:15px 0;
+  margin:14px auto;
+  font-size:14px;
+  text-decoration:none;
+  color:#fff;
+  background:#2f6f8f;
+  border-radius:10px;
+  transition:.25s;
+}
+
+.btn:hover{
+  background:#245a73;
+  transform:translateY(-2px);
+  box-shadow:0 6px 14px rgba(47,111,143,.35);
+}
+
+/* FOOTER */
+.footer{
+  padding-top:25px;
+  border-top:1px solid #eee;
+  font-size:13px;
+  color:#777;
+  line-height:1.6;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+  .country{
+    gap:30px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="offer-box">
+
+  <!-- TOP TEXT (UNCHANGED) -->
+  <h1>Save Money with Swagbucks</h1>
+  <p>Earn rewards, cashback & gift cards from everyday activities</p>
+  <p><strong>Available in USA & Canada</strong></p>
+
+  <!-- IMAGE -->
+  <img src="offer1.png" class="offer-image">
+
+  <!-- COUNTRY -->
+  <div class="country">
+
+    <div>
+      <h3>🇺🇸 USA</h3>
+      <a class="btn"><i class="fa-brands fa-android"></i> Android</a>
+      <a class="btn"><i class="fa-brands fa-apple"></i> iOS</a>
+      <a class="btn"><i class="fa-solid fa-desktop"></i> PC</a>
+    </div>
+
+    <div>
+      <h3>🇨🇦 Canada</h3>
+      <a class="btn"><i class="fa-brands fa-android"></i> Android</a>
+      <a class="btn"><i class="fa-brands fa-apple"></i> iOS</a>
+      <a class="btn"><i class="fa-solid fa-desktop"></i> PC</a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 TechInsides<br>
+    Trusted & verified CPA offers only<br>
+    No spam • No fake links • 100% legit
+  </div>
+
+</div>
+
+</body>
+</html>
