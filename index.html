@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>USA & Canada CPA Offers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+html, body{
+  min-height:100%;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  margin:0;
+  padding:20px;
+}
+
+/* MAIN BOX */
+.offer-box{
+  width:100%;
+  max-width:900px;
+  min-height:100vh;          /* 🔑 নিচ পর্যন্ত যাবে */
+  margin:auto;
+  background:#fff;
+  border-radius:16px;
+  padding:28px;
+  text-align:center;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+
+/* TITLES */
+.offer-box h1{
+  color:#2f6f8f;
+  margin-bottom:8px;
+}
+
+.offer-box p{
+  color:#666;
+  font-size:15px;
+  margin-bottom:14px;
+}
+
+/* IMAGE */
+.offer-box img{
+  width:100%;
+  max-width:140px;
+  height:auto;
+  margin:15px auto 25px;
+  display:block;
+}
+
+/* COUNTRY WRAP */
+.country{
+  display:flex;
+  justify-content:center;
+  gap:24px;                 /* 🔑 মাঝের গ্যাপ কমানো */
+  flex-wrap:wrap;
+}
+
+/* COUNTRY BOX */
+.country > div{
+  width:100%;
+  max-width:260px;
+}
+
+.country h3{
+  margin-bottom:10px;
+  font-size:17px;
+}
+
+/* BUTTON */
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  width:100%;
+  max-width:150px;
+  padding:9px 0;
+  margin:8px auto;
+  font-size:14px;
+  text-decoration:none;
+  color:#fff;
+  background:#2f6f8f;
+  border-radius:10px;
+  transition:all .25s ease;
+}
+
+.btn i{
+  font-size:16px;
+}
+
+.btn:hover{
+  background:#245a73;
+  transform:translateY(-2px);
+  box-shadow:0 6px 14px rgba(47,111,143,.35);
+}
+
+/* FOOTER */
+.footer{
+  margin-top:30px;
+  font-size:13px;
+  color:#777;
+  line-height:1.6;
+}
+
+/* MOBILE */
+@media (max-width:600px){
+  body{
+    padding:14px;
+  }
+  .offer-box{
+    padding:22px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="offer-box">
+  <h1>Save Money with Swagbucks</h1>
+  <p>Earn rewards, cashback & gift cards from everyday activities</p>
+  <p><strong>Available in USA & Canada</strong></p>
+
+  <img src="offer1.png" alt="Swagbucks">
+
+  <div class="country">
+
+    <div>
+      <h3>🇺🇸 USA</h3>
+      <a href="#" class="btn"><i class="fa-brands fa-android"></i> Android</a>
+      <a href="#" class="btn"><i class="fa-brands fa-apple"></i> iOS</a>
+      <a href="#" class="btn"><i class="fa-solid fa-desktop"></i> PC</a>
+    </div>
+
+    <div>
+      <h3>🇨🇦 Canada</h3>
+      <a href="#" class="btn"><i class="fa-brands fa-android"></i> Android</a>
+      <a href="#" class="btn"><i class="fa-brands fa-apple"></i> iOS</a>
+      <a href="#" class="btn"><i class="fa-solid fa-desktop"></i> PC</a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 TechInsides<br>
+    Trusted & verified CPA offers only<br>
+    No spam • No fake links • 100% legit
+  </div>
+</div>
+
+</body>
+</html>
