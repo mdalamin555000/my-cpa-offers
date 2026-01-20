@@ -69,23 +69,28 @@ body{
 }
 
 /* BUTTON */
-.btn{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:8px;
-  width:100%;
-  max-width:170px;
-  padding:15px 0;
-  margin:14px auto;
-  font-size:14px;
-  text-decoration:none;
-  color:#fff;
-  background:#2f6f8f;
-  border-radius:10px;
-  transition:.25s;
-}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  width: 100%;          /* ⭐ সবচেয়ে গুরুত্বপূর্ণ */
+  max-width: 100%;     /* ⭐ আগের max-width বাদ */
+  padding: 14px 0;
+
+  margin: 12px auto;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  background: #2f6f8f;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+} 
+.btn i {
+  width: 18px;
+  text-align: center;
+  font-size: 16px;
+}
 .btn:hover{
   background:#245a73;
   transform:translateY(-2px);
