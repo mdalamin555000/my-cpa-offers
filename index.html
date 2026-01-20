@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>USA & Canada CPA Offers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background:#f4f6f8;
+  padding:20px;
+}
+
+/* MAIN CONTAINER */
+.offer-box{
+  width:100%;
+  max-width:900px;
+  min-height:100vh;
+  margin:auto;
+  background:#fff;
+  border-radius:18px;
+  padding:40px 26px;
+  text-align:center;
+  box-shadow:0 8px 24px rgba(0,0,0,.1);
+}
+
+/* TITLES */
+.offer-box h1{
+  color:#2f6f8f;
+  margin-bottom:18px;
+}
+
+.offer-box p{
+  color:#666;
+  font-size:16px;
+  margin:10px 0;
+}
+
+/* IMAGE — REALLY BIG NOW */
+.offer-box img{
+  width:100%;
+  max-width:320px;      /* ⬅️ visibly বড় */
+  height:auto;
+  margin:40px auto 50px;/* ⬅️ top & bottom space */
+  display:block;
+}
+
+/* COUNTRY SECTION */
+.country{
+  display:flex;
+  justify-content:center;
+  gap:30px;             /* ⬅️ মাঝের gap কম কিন্তু breathable */
+  margin-bottom:60px;   /* ⬅️ নিচে space */
+}
+
+/* EACH COUNTRY */
+.country > div{
+  width:100%;
+  max-width:240px;
+}
+
+.country h3{
+  font-size:18px;
+  margin-bottom:20px;
+}
+
+/* BUTTON — BIG & TALL */
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  width:100%;
+  max-width:180px;
+  padding:16px 0;       /* ⬅️ height অনেক বাড়ানো */
+  margin:18px auto;     /* ⬅️ top/bottom gap বেশি */
+  font-size:15px;
+  text-decoration:none;
+  color:#fff;
+  background:#2f6f8f;
+  border-radius:14px;
+  transition:all .25s ease;
+}
+
+.btn i{
+  font-size:18px;
+}
+
+.btn:hover{
+  background:#245a73;
+  transform:translateY(-2px);
+  box-shadow:0 8px 18px rgba(47,111,143,.35);
+}
+
+/* FOOTER */
+.footer{
+  margin-top:40px;
+  padding-top:30px;
+  border-top:1px solid #eee;
+  font-size:14px;
+  color:#777;
+  line-height:1.7;
+}
+
+/* MOBILE */
+@media (max-width:600px){
+  body{
+    padding:14px;
+  }
+
+  .offer-box{
+    padding:36px 20px;
+  }
+
+  .country{
+    flex-direction:column;
+    gap:40px;
+  }
+
+  .btn{
+    max-width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="offer-box">
+
+  <h1>Save Money with Swagbucks</h1>
+  <p>Earn rewards, cashback & gift cards from everyday activities</p>
+  <p><strong>Available in USA & Canada</strong></p>
+
+  <img src="offer1.png" alt="Swagbucks Offer">
+
+  <div class="country">
+
+    <div>
+      <h3>🇺🇸 USA</h3>
+      <a href="#" class="btn"><i class="fa-brands fa-android"></i> Android</a>
+      <a href="#" class="btn"><i class="fa-brands fa-apple"></i> iOS</a>
+      <a href="#" class="btn"><i class="fa-solid fa-desktop"></i> PC</a>
+    </div>
+
+    <div>
+      <h3>🇨🇦 Canada</h3>
+      <a href="#" class="btn"><i class="fa-brands fa-android"></i> Android</a>
+      <a href="#" class="btn"><i class="fa-brands fa-apple"></i> iOS</a>
+      <a href="#" class="btn"><i class="fa-solid fa-desktop"></i> PC</a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 TechInsides<br>
+    Trusted & verified CPA offers only<br>
+    No spam • No fake links • 100% legit
+  </div>
+
+</div>
+
+</body>
+</html>
