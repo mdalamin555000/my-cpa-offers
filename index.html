@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>USA & Canada CPA Offers</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  padding:20px;
+  min-height:100vh;
+  background:#f4f6f8;
+  font-family:Arial, sans-serif;
+
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+/* MAIN CARD */
+.offer-box{
+  width:100%;
+  max-width:900px;
+  background:#fff;
+  border-radius:16px;
+  padding:28px;
+  box-shadow:0 6px 20px rgba(0,0,0,.08);
+
+  min-height:100vh;              /* 👈 পুরো স্ক্রিন নেবে */
+  display:flex;
+  flex-direction:column;
+}
+
+/* HEADER */
+.offer-box h1{
+  color:#2f6f8f;
+  margin-bottom:8px;
+  text-align:center;
+}
+
+.offer-box p{
+  color:#666;
+  font-size:15px;
+  margin-bottom:14px;
+  text-align:center;
+}
+
+/* IMAGE */
+.offer-image{
+  height:350px;
+  width:100%;
+  max-width:700px;
+  margin:20px auto 30px;
+  display:block;
+  object-fit:contain;
+}
+
+/* FLEX SPACER (MAGIC PART) */
+.spacer{
+  flex:1;
+}
+
+/* COUNTRY SECTION */
+.country{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+  margin-bottom:30px;
+}
+
+.country > div{
+  width:100%;
+  max-width:260px;
+  text-align:center;
+}
+
+.country h3{
+  font-size:26px;
+  margin-bottom:15px;
+}
+
+/* BUTTON */
+.btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+
+  width:100%;
+  max-width:170px;
+  padding:16px 0;
+  margin:12px auto;
+
+  background:#2f6f8f;
+  color:#fff;
+  text-decoration:none;
+  font-size:15px;
+  border-radius:12px;
+
+  transition:.25s;
+}
+
+.btn i{
+  font-size:18px;
+}
+
+.btn:hover{
+  background:#245a73;
+  transform:translateY(-2px);
+  box-shadow:0 6px 14px rgba(47,111,143,.35);
+}
+
+/* FOOTER */
+.footer{
+  text-align:center;
+  font-size:13px;
+  color:#777;
+  line-height:1.6;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+  body{
+    padding:14px;
+  }
+  .offer-box{
+    padding:22px;
+  }
+  .offer-image{
+    height:200px;
+  }
+  .btn{
+    max-width:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="offer-box">
+
+  <h1>Save Money with Swagbucks</h1>
+  <p>Earn rewards, cashback & gift cards from everyday activities</p>
+  <p><strong>Available in USA & Canada</strong></p>
+
+  <img src="offer1.png" alt="Swagbucks" class="offer-image"/>
+
+  <!-- 🔥 THIS IS THE KEY -->
+  <div class="spacer"></div>
+
+  <div class="country">
+
+    <!-- USA -->
+    <div>
+      <h3>🇺🇸 USA</h3>
+      <a href="https://singingfiles.com/show.php?l=0&u=2264717&id=73922" class="btn">
+        <i class="fa-brands fa-android"></i> Android
+      </a>
+      <a href="https://singingfiles.com/show.php?l=0&u=2264717&id=73923" class="btn">
+        <i class="fa-brands fa-apple"></i> iOS
+      </a>
+      <a href="https://singingfiles.com/show.php?l=0&u=2264717&id=73921" class="btn">
+        <i class="fa-solid fa-desktop"></i> PC
+      </a>
+    </div>
+
+    <!-- CANADA -->
+    <div>
+      <h3>🇨🇦 Canada</h3>
+      <a href="https://singingfiles.com/show.php?l=0&u=2264717&id=73913" class="btn">
+        <i class="fa-brands fa-android"></i> Android
+      </a>
+      <a href="https://singingfiles.com/show.php?l=0&u=2264717&id=73914" class="btn">
+        <i class="fa-brands fa-apple"></i> iOS
+      </a>
+      <a href="https://singingfiles.com/show.php?l=0&u=2264717&id=73912" class="btn">
+        <i class="fa-solid fa-desktop"></i> PC
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    © 2026 TechInsides<br>
+    Trusted & verified CPA offers only<br>
+    No spam • No fake links • 100% legit
+  </div>
+
+</div>
+
+</body>
+</html>
